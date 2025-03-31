@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\agust\\source\\repos\\Oculista\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{11E8450F-4C0D-4405-B0BE-7EFEF022CEE0}|Oculista\\Oculista.csproj|C:\\Users\\agust\\source\\repos\\Oculista\\oculista\\oculista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{11E8450F-4C0D-4405-B0BE-7EFEF022CEE0}|Oculista\\Oculista.csproj|C:\\Users\\agust\\source\\repos\\Oculista\\oculista\\oculista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{11E8450F-4C0D-4405-B0BE-7EFEF022CEE0}|Oculista\\Oculista.csproj|solutionrelative:oculista\\oculista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11E8450F-4C0D-4405-B0BE-7EFEF022CEE0}|Oculista\\Oculista.csproj|c:\\users\\agust\\source\\repos\\oculista\\oculista\\oculista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11E8450F-4C0D-4405-B0BE-7EFEF022CEE0}|Oculista\\Oculista.csproj|solutionrelative:oculista\\oculista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11E8450F-4C0D-4405-B0BE-7EFEF022CEE0}|Oculista\\Oculista.csproj|C:\\Users\\agust\\source\\repos\\Oculista\\oculista\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{11E8450F-4C0D-4405-B0BE-7EFEF022CEE0}|Oculista\\Oculista.csproj|solutionrelative:oculista\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{34390C94-8FEF-4CA2-A494-E091F42B466D}|Dominio\\Dominio.csproj|C:\\Users\\agust\\source\\repos\\Oculista\\dominio\\objetos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34390C94-8FEF-4CA2-A494-E091F42B466D}|Dominio\\Dominio.csproj|solutionrelative:dominio\\objetos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11E8450F-4C0D-4405-B0BE-7EFEF022CEE0}|Oculista\\Oculista.csproj|c:\\users\\agust\\source\\repos\\oculista\\oculista\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{11E8450F-4C0D-4405-B0BE-7EFEF022CEE0}|Oculista\\Oculista.csproj|solutionrelative:oculista\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11E8450F-4C0D-4405-B0BE-7EFEF022CEE0}|Oculista\\Oculista.csproj|c:\\users\\agust\\source\\repos\\oculista\\oculista\\oculista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{11E8450F-4C0D-4405-B0BE-7EFEF022CEE0}|Oculista\\Oculista.csproj|solutionrelative:oculista\\oculista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7A0EABC3-8C40-44E3-9642-2FEDA83845B8}|Base de datos\\Base de datos.csproj|C:\\Users\\agust\\source\\repos\\Oculista\\base de datos\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A0EABC3-8C40-44E3-9642-2FEDA83845B8}|Base de datos\\Base de datos.csproj|solutionrelative:base de datos\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,44 +34,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Agenda.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\agust\\source\\repos\\Oculista\\Oculista\\Agenda.cs",
-              "RelativeDocumentMoniker": "Oculista\\Agenda.cs",
-              "ToolTip": "C:\\Users\\agust\\source\\repos\\Oculista\\Oculista\\Agenda.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Oculista\\Agenda.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T15:15:56.407Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Paciente.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\agust\\source\\repos\\Oculista\\Oculista\\Paciente.cs",
-              "RelativeDocumentMoniker": "Oculista\\Paciente.cs",
-              "ToolTip": "C:\\Users\\agust\\source\\repos\\Oculista\\Oculista\\Paciente.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Oculista\\Paciente.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T21:58:01.165Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Oculista.cs",
               "DocumentMoniker": "C:\\Users\\agust\\source\\repos\\Oculista\\Oculista\\Oculista.cs",
               "RelativeDocumentMoniker": "Oculista\\Oculista.cs",
               "ToolTip": "C:\\Users\\agust\\source\\repos\\Oculista\\Oculista\\Oculista.cs",
               "RelativeToolTip": "Oculista\\Oculista.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAWwAwAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAowJUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T21:32:12.204Z",
+              "WhenOpened": "2025-03-31T12:32:15.515Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Oculista.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\agust\\source\\repos\\Oculista\\Oculista\\Oculista.cs",
               "RelativeDocumentMoniker": "Oculista\\Oculista.cs",
@@ -80,6 +56,30 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-13T21:28:03.265Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Objetos.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\source\\repos\\Oculista\\Dominio\\Objetos.cs",
+              "RelativeDocumentMoniker": "Dominio\\Objetos.cs",
+              "ToolTip": "C:\\Users\\agust\\source\\repos\\Oculista\\Dominio\\Objetos.cs",
+              "RelativeToolTip": "Dominio\\Objetos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T18:32:12.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\source\\repos\\Oculista\\Base de datos\\Usuarios.cs",
+              "RelativeDocumentMoniker": "Base de datos\\Usuarios.cs",
+              "ToolTip": "C:\\Users\\agust\\source\\repos\\Oculista\\Base de datos\\Usuarios.cs",
+              "RelativeToolTip": "Base de datos\\Usuarios.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAgwDYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T18:37:45.286Z"
             }
           ]
         }
