@@ -37,22 +37,11 @@ namespace Base_de_datos
                     aux.Nombre = lector.GetInt32(0);
                     aux.Saldo = (string)lector["Nombre"];
 
-                 //   if (!(lector["UrlImagen"] is DBNull))
-                 //       aux.UrlImagen = (string)lector["UrlImagen"];
 
-                 //   aux.Tipo = new Elemento();
-                //    aux.Tipo.Id = (int)lector["IdTipo"];
-                 //   aux.Tipo.Descripcion = (string)lector["Tipo"];
-                 //   aux.Debilidad = new Elemento();
-                 //   aux.Debilidad.Id = (int)lector["IdDebilidad"];
-                //    aux.Debilidad.Descripcion = (string)lector["Debilidad"];
-
-                   // lista.Add(aux);
-               // }
-
-                conexion.Close();
-                return lista;
+                    conexion.Close();
+                    return lista;
                 }
+            }
             catch (Exception ex)
             {
                 throw ex;
@@ -69,7 +58,6 @@ namespace Base_de_datos
                 datos.setearConsulta("Insert into POKEMONS (Numero, Nombre, Descripcion, Activo, IdTipo, IdDebilidad, UrlImagen)values(" + nuevo.Numero + ", '" + nuevo.Nombre + "', '" + nuevo.Descripcion + "', 1, @idTipo, @idDebilidad, @urlImagen)");
                 datos.setearParametro("@idTipo", nuevo.Tipo.Id);
                 datos.setearParametro("@idDebilidad", nuevo.Debilidad.Id);
-                datos.setearParametro("@urlImagen", nuevo.UrlImagen);
                 datos.ejecutarAccion();
             }
             catch (Exception ex)
@@ -87,13 +75,10 @@ namespace Base_de_datos
             AccesoDatos datos = new AccesoDatos();
             try
             {
-                datos.setearConsulta("update POKEMONS set Numero = @numero, Nombre = @nombre, Descripcion = @desc, UrlImagen = @img, IdTipo = @idTipo, IdDebilidad = @idDebilidad Where Id = @id");
-                datos.setearParametro("@numero", poke.Numero);
+                datos.setearConsulta("update POKEMONS set Numero = @Id, Nombre = @nombre, Descripcion = @desc, UrlImagen = @img, IdTipo = @idTipo, IdDebilidad = @idDebilidad Where Id = @id");
                 datos.setearParametro("@nombre", poke.Nombre);
                 datos.setearParametro("@desc", poke.Descripcion);
-                datos.setearParametro("@img", poke.UrlImagen);
                 datos.setearParametro("@idTipo", poke.Tipo.Id);
-                datos.setearParametro("@idDebilidad", poke.Debilidad.Id);
                 datos.setearParametro("@id", poke.Id);
 
                 datos.ejecutarAccion();
@@ -167,7 +152,7 @@ namespace Base_de_datos
                 {
                     Usuarios aux = new Usuarios();
                     aux.Id = (int)datos.Lector["Id"];
-                    aux.Numero = datos.Lector.GetInt32(0);
+                    aux.Dni = datos.Lector.GetInt32(0);
                     aux.Nombre = (string)datos.Lector["Nombre"];
                     aux.Descripcion = (string)datos.Lector["Descripcion"];
                     if (!(datos.Lector["UrlImagen"] is DBNull))

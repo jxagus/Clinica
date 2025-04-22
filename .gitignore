@@ -1,0 +1,5 @@
+# Archivos y carpetas de Visual Studio
+.vs/
+*.user
+*.suo
+*.VC.db

@@ -1,0 +1,6 @@
+C:\Users\agust\source\repos\Oculista\Dominio\bin\Debug\Dominio.dll
+C:\Users\agust\source\repos\Oculista\Dominio\bin\Debug\Dominio.pdb
+C:\Users\agust\source\repos\Oculista\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\agust\source\repos\Oculista\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\agust\source\repos\Oculista\Dominio\obj\Debug\Dominio.dll
+C:\Users\agust\source\repos\Oculista\Dominio\obj\Debug\Dominio.pdb

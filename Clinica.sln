@@ -3,11 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculista", "Oculista\Oculista.csproj", "{11E8450F-4C0D-4405-B0BE-7EFEF022CEE0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pacientes", "Oculista\Pacientes.csproj", "{11E8450F-4C0D-4405-B0BE-7EFEF022CEE0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{34390C94-8FEF-4CA2-A494-E091F42B466D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base de datos", "Base de datos\Base de datos.csproj", "{7A0EABC3-8C40-44E3-9642-2FEDA83845B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "Acesso a Datos\Negocio.csproj", "{2C346936-7B28-40A6-956F-AEAA179436EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +28,10 @@ Global
 		{34390C94-8FEF-4CA2-A494-E091F42B466D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34390C94-8FEF-4CA2-A494-E091F42B466D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34390C94-8FEF-4CA2-A494-E091F42B466D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7A0EABC3-8C40-44E3-9642-2FEDA83845B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7A0EABC3-8C40-44E3-9642-2FEDA83845B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7A0EABC3-8C40-44E3-9642-2FEDA83845B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7A0EABC3-8C40-44E3-9642-2FEDA83845B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C346936-7B28-40A6-956F-AEAA179436EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C346936-7B28-40A6-956F-AEAA179436EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C346936-7B28-40A6-956F-AEAA179436EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C346936-7B28-40A6-956F-AEAA179436EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

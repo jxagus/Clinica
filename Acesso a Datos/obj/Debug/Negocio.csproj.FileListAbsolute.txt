@@ -1,0 +1,4 @@
+C:\Users\agust\source\repos\Oculista\Acesso a Datos\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\agust\source\repos\Oculista\Acesso a Datos\obj\Debug\Acesso_a_Datos.Properties.Resources.resources
+C:\Users\agust\source\repos\Oculista\Acesso a Datos\obj\Debug\Negocio.csproj.GenerateResource.cache
+C:\Users\agust\source\repos\Oculista\Acesso a Datos\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
